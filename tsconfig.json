@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "lib": ["ESNext", "DOM"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "types": ["node"]
+  },
+  "include": ["src/**/*.ts", "playwright.config.ts"],
+  "exclude": ["node_modules"]
+}

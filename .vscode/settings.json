@@ -1,0 +1,22 @@
+{
+  "playwright.reuseBrowser": false,
+  "playwright.showTrace": false,
+  "playwright.configFile": "playwright.config.ts",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "files.exclude": {
+    "node_modules": true,
+    "test-results": true,
+    "playwright-report": true
+  },
+  "search.exclude": {
+    "node_modules": true,
+    "test-results": true,
+    "playwright-report": true
+  }
+}
